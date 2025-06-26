@@ -1,5 +1,5 @@
 {% set name = "globalign" %}
-{% set version = "0.1.15" %}
+{% set version = "0.1.16" %}
 {% set python_min = "3.10" %}
 
 package:
