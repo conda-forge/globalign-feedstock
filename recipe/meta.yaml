@@ -1,5 +1,5 @@
 {% set name = "globalign" %}
-{% set version = "0.1.15" %}
+{% set version = "0.1.16" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/globalign-{{ version }}.tar.gz
-  sha256: 882aeddf343bb15121ee7523b05c055a86a184318b8d07b0442311e3eb61c39b
+  sha256: 40d46a15d6ab1da5978406da1b35b339a7b6d9600e21b7ac2d5bda420a6530aa
 
 build:
   entry_points:
